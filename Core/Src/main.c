@@ -151,9 +151,10 @@ int main(void)
   while (1)
   {
 
-	/*  percep.weights[1]= atof(buffer); //trying to adjust buffer values to weights
-	  HAL_Delay(100);
-	  percep.weights[2]= atof(buffer);
+	/*    double received_value_1= atof((char*)buffer); //trying to adjust buffer values to weights
+	  percep.weights[1]= received_value_1;
+	  double received_value_2 =atof((char*)buffer);
+	  percep.weights[2]= received_value_2;
 	  CDC_Transmit_FS(buffer,strlen(buffer));*/
 	  HAL_ADC_Start(&hadc1);
       HAL_ADC_Start(&hadc2);
