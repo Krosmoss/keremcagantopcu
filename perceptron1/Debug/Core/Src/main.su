@@ -1,6 +1,6 @@
 ../Core/Src/main.c:82:5:predict	40	static
 ../Core/Src/main.c:90:6:train	80	static
-../Core/Src/main.c:109:5:main	232	static
+../Core/Src/main.c:109:5:main	248	static
 ../Core/Src/main.c:218:6:SystemClock_Config	88	static
 ../Core/Src/main.c:264:13:MX_ADC1_Init	24	static
 ../Core/Src/main.c:316:13:MX_ADC2_Init	24	static
